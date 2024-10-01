@@ -1,10 +1,10 @@
 remote: true
 
 experienceLevel:
-  internship: false
+  internship: true
   entry: true
-  associate: true
-  mid-senior level: true
+  associate: false
+  mid-senior level: false
   director: false
   executive: false
 
@@ -12,10 +12,10 @@ jobTypes:
   full-time: true
   contract: false
   part-time: false
-  temporary: true
-  internship: false
+  temporary: false
+  internship: true
   other: false
-  volunteer: true
+  volunteer: false
 
 date:
   all time: false
@@ -27,15 +27,22 @@ positions:
   - Software engineer
 
 locations:
-  - Germany
+  - United States
 
 apply_once_at_company: true
 
 distance: 100
 
 company_blacklist:
-  - wayfair
-  - Crossover
+  - Apple
+  - Meta
+  - Google
+  - Microsoft
+  - Amazon
+  - Tesla
+  - SpaceX
+  - Tesla
+  - Netflix
 
 title_blacklist:
   - word1
@@ -43,7 +50,7 @@ title_blacklist:
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 30
+  max_applicants: 100000
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'
